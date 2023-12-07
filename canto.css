@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#inicio-page {
+    text-decoration: none;
+
+}
+
+#pedagogia-i {
+    text-decoration-thickness: 3px;
+    text-decoration: underline;
+}
+
+
+body{
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #59a3f0;
+   
+}
+
+p{
+    margin-right: 2em;
+    text-align: center;
+}
+
+.text-focus-in {
+	-webkit-animation: text-focus-in 1.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 1.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+.main-header{
+    padding: 2em;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-header h1{
+    font-size: 4em;
+    margin-bottom: 1.5em;
+    line-height: 1.5em;
+}
+
+.conteiner .card img{
+    margin-left: 5em;
+    width: 19em;
+    height: 20em;
+}
+
+.conteiner{
+    padding: 4em;
+    background-color:#005480 ;
+    margin-top:15em ;
+}
+
+.card{
+    
+    color: aliceblue;
+    text-shadow:black 5px 5px 5px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
+    margin-bottom: 2em;
+    background: #59a3f0;
+    
+        -webkit-animation: focus-in-contract-bck 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+                animation: focus-in-contract-bck 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+
+
+h1{
+    background-color: #59a3f0;
+    text-align: center;
+}
+
+
+.card h3{
+    margin-bottom: 2em;
+}
+
+.card img{
+    width: 400px;
+}
+
+.card:nth-child(even) img{
+    order: 2
+}
+
+.card div{
+    padding:2em;
+}
+
+
+ @-webkit-keyframes card {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(300px);
+              transform: translateZ(300px);
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(12px);
+              transform: translateZ(12px);
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
+  @keyframes focus-in-contract-bck{
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(300px);
+              transform: translateZ(300px);
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(12px);
+              transform: translateZ(12px);
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
+  
+
+
+
+ 
+
+  
+
+  
